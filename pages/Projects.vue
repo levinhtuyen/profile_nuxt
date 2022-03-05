@@ -43,31 +43,40 @@ export default {
     return {
       projects: [
         {
-          title: "Say-It",
+          title: "Anbooks",
           tag: "Progressive Web App",
           description:
-            "Typing sucks, say the words instead and the text will be generated for you.",
+            "Website published books.",
           image_cover: require("@/assets/speak.jpg"),
-          github_url: "https://github.com/AsaoluElijah/say-it/",
-          link: "https://asaoluelijah.github.io/say-it"
+          github_url: "",
+          link: "http://www.anbooks.vn/"
         },
         {
-          title: "Proton",
-          tag: "Chrome-Extention, Coming Soon!",
+          title: "Go2joy",
+          tag: "Progressive Web App",
           description:
-            "Proton charges you with positivity when you open a new chrome tab, plus you also get worldwide latest info.",
+            "Top of hourly hotel booking app in Vietnam with exclusive benefits.",
           image_cover: require("@/assets/illustration.jpg"),
           github_url: "",
           link: ""
         },
         {
-          title: "Qr-Generator",
-          tag: "Progressive Web App",
+          title: "SA Go2joy",
+          tag: "Web Admin",
           description:
-            "Easily share secret messages with friends by converting text to qrcode.",
+            "Tracking and manager booking, user ... for Go2joy",
           image_cover: require("@/assets/qr-1.png"),
-          github_url: "https://github.com/AsaoluElijah/qrcode",
-          link: "https://asaoluelijah.github.io/qrcode/"
+          github_url: "",
+          link: ""
+        },
+        {
+          title: "HA Go2joy",
+          tag: "Web Admin",
+          description:
+            "Tracking and manager booking, user ... for Hotel",
+          image_cover: require("@/assets/qr-1.png"),
+          github_url: "",
+          link: ""
         }
       ],
     };
@@ -82,18 +91,18 @@ export default {
     }
   },
   head: {
-    title: "Recent Projects 💻 - Asaolu Elijah",
+    title: "Recent Projects 💻 - Tuyến",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Asaolu Elijah, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify."
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Projects 💻 - Asaolu Elijah"
+        content: "Recent Projects 💻 - Tuyến"
       },
       {
         property: "og:description",

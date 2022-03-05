@@ -6,9 +6,8 @@
           <h1 class="line-after">About Me</h1>
           <h4 class="mt-4">Hey 👋</h4>
           <p>
-            My name is Asaolu Elijah, I am a <b>front-end developer</b> and
-            <b>technical writer</b>. Currently studying Computer Science at
-            <u>OAUSTECH</u>.
+            My name is Lê Vĩnh Tuyến, I am a <b>front-end developer</b> . Currently studying Computer Science at
+            <u>HCMUS</u>.
           </p>
           <p>
             I have <b>{{ currYear - startYear }}+ years experience</b> in
@@ -22,14 +21,13 @@
               <ul style="list-style-type: circle;">
                 <li>HTML & CSS</li>
                 <li>Node.js</li>
-                <li>PHP</li>
+                <li>PHP (Laravel)</li>
               </ul>
             </div>
             <div class="col">
               <ul style="list-style-type: circle;">
                 <li>JavaScript</li>
                 <li>Vue.js</li>
-                <li>WordPress</li>
               </ul>
             </div>
           </div>
@@ -49,24 +47,24 @@
 export default {
   data() {
     return {
-      startYear: 2017,
+      startYear: 2018,
       currYear: new Date().getFullYear(),
       stacks: [
         {
           language: "HTML",
-          experience: "3+ Years",
+          experience: "4+ Years",
           variant: "secondary",
           breif: "lorem..."
         },
         {
           language: "CSS",
-          experience: "3+ Years",
+          experience: "4+ Years",
           variant: "primary",
           breif: "lorem..."
         },
         {
           language: "Javascript",
-          experience: "2+ Years",
+          experience: "3+ Years",
           variant: "warning",
           breif: "lorem..."
         },
@@ -86,13 +84,13 @@ export default {
     };
   },
   head: {
-    title: "About 🕵️‍♂️ - Asaolu Elijah",
+    title: "About 🕵️‍♂️ - Tuyến",
     meta: [
       {
         hid: "description",
         name: "description",
         // currYear - startYear
-        content: `Hey there 👋 My name is Asaolu Elijah, i am a front-end developer and technical writer currently studying Computer Science at OAUSTECH(Nigeria). i have many years of experience in crafting beautiful web and mobile interfaces. Plus i am an agile learner, i learn new cool stuffs everyday.`
+        content: `Hey there 👋 My name is Tuyến, i am a front-end developer currently studying Computer Science at HCMUS. i have many years of experience in crafting beautiful web and mobile interfaces. Plus i am an agile learner, i learn new cool stuffs everyday.`
       }
     ]
   }
