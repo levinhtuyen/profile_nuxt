@@ -90,7 +90,7 @@ export default {
     }
   },
   head: {
-    title: "Contact 📧 - Asaolu Elijah",
+    title: "Contact 📧 - Tuyến",
     meta: [
       {
         hid: "description",
@@ -100,7 +100,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "Contact 📧 - Asaolu Elijah"
+        content: "Contact 📧 - Tuyến"
       },
       {
         property: "og:description",

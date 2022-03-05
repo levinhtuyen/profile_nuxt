@@ -107,7 +107,7 @@ export default {
       {
         property: "og:description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Asaolu Elijah, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify."
       },
       {
         hid: "og:image",

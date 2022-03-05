@@ -3,8 +3,7 @@
     <b-col md="4">
       <b-img
         :src="avatar"
-        id="avatar-img"
-        alt="Asaolu Elijah Memoji"
+        id="Tuyến Memoji"
         @mouseenter="changeAvatar"
         @mouseleave="changeAvatar"
       />
@@ -100,23 +99,23 @@ export default {
   },
 
   head: {
-    title: "Portfolio ⚡ - Asaolu Elijah",
+    title: "Portfolio ⚡ - Tuyến",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Asaolu Elijah is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Portfolio ⚡ - Asaolu Elijah"
+        content: "Portfolio ⚡ - Tuyến"
       },
       {
         property: "og:description",
         content:
-          "Asaolu Elijah is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
       },
       {
         hid: "og:image",

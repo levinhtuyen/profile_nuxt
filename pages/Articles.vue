@@ -79,22 +79,22 @@ export default {
     };
   },
   head: {
-    title: "Recent Articles 📚 - Asaolu Elijah",
+    title: "Recent Articles 📚 - Tuyến",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Read articles written by Asaolu Elijah, articles include topics under web development (html, css, javascript), mobile app development and many more."
+          "Read articles written by Tuyến, articles include topics under web development (html, css, javascript), mobile app development and many more."
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Articles 📚 - Asaolu Elijah"
+        content: "Recent Articles 📚 - Tuyến"
       },
       {
         property: "og:description",
-        content: "Read articles written by Asaolu Elijah, articles include topics under web development (html, css, javascript), mobile app development and many more."
+        content: "Read articles written by Tuyến, articles include topics under web development (html, css, javascript), mobile app development and many more."
       },
     ]
   },
@@ -120,7 +120,7 @@ export default {
               url: article.url,
               date: article.readable_publish_date,
               tags: article.tag_list,
-              imgAlt: article.title + " - Asaolu Elijah"
+              imgAlt: article.title + " - Tuyến"
             });
           });
           success();
