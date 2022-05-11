@@ -9,6 +9,9 @@ export default {
    ** See https://nuxtjs.org/api/configuration-target
    */
   target: "static",
+  router: {
+    base: "/gh-pages/",
+  },
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -21,22 +24,20 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
-      }
+        content: process.env.npm_package_description || "",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+        href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap",
       },
       {
         rel: "stylesheet",
-        href:
-          "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-      }
-    ]
+        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css",
+      },
+    ],
   },
   /*
    ** Global CSS
@@ -61,11 +62,11 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    "bootstrap-vue/nuxt"
+    "bootstrap-vue/nuxt",
   ],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {},
 };
