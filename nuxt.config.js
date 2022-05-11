@@ -21,6 +21,11 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { "http-equiv": "cache-control", content: "max-age=0" },
+      { "http-equiv": "cache-control", content: "no-cache" },
+      { "http-equiv": "expires", content: "0" },
+      { "http-equiv": "expires", content: "Tue, 01 Jan 1980 1:00:00 GMT" },
+      { "http-equiv": "pragma", content: "no-cache" },
       {
         hid: "description",
         name: "description",
