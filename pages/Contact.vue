@@ -57,8 +57,8 @@ export default {
       formData: {
         name: "",
         email: "",
-        message: ""
-      }
+        message: "",
+      },
     };
   },
   methods: {
@@ -74,9 +74,9 @@ export default {
         method: "POST",
         body: data,
         headers: {
-          Accept: "application/json"
-        }
-      }).then(response => {
+          Accept: "application/json",
+        },
+      }).then((response) => {
         if (response.ok) {
           this.showAlert = true;
           form.reset();
@@ -87,7 +87,7 @@ export default {
       // .catch(error => {
       //   alert("Sending message failed, please try again");
       // });
-    }
+    },
   },
   head: {
     title: "Contact 📧 - Tuyến",
@@ -95,24 +95,24 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Profile"
+        content: "Profile",
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Contact 📧 - Tuyến"
+        content: "Contact 📧 - Tuyến",
       },
       {
         property: "og:description",
-        content: "Profile"
+        content: "Profile",
       },
       {
         hid: "og:image",
         name: "og:image",
-        content: require("@/assets/contact.jpg")
-      }
-    ]
-  }
+        content: require("@/static/contact.jpg"),
+      },
+    ],
+  },
 };
 </script>
 <style scoped>

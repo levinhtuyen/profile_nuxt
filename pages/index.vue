@@ -1,5 +1,5 @@
 <template>
-  <b-row style="margin-left: 0;margin-right: 0;">
+  <b-row style="margin-left: 0; margin-right: 0">
     <b-col md="4">
       <b-img
         :src="avatar"
@@ -18,9 +18,11 @@
       <div class="col-md-10 info">
         A <b>front-end developer</b> and <b>technical writer</b> passionate
         about solving problems with tech.<br />
-        I am skilled with building exceptional <b>websites</b> <b>Vuejs, Vite, NuxtJs</b>
+        I am skilled with building exceptional <b>websites</b>
+        <b>Vuejs, Vite, NuxtJs</b>
         <br />
-        I am skilled with CSS frameworks: <b>Bootstrap, Quasar, ElementUI, TailwindCSS ... </b>
+        I am skilled with CSS frameworks:
+        <b>Bootstrap, Quasar, ElementUI, TailwindCSS ... </b>
         <b-button
           class="action-btn animate__animated animate__wobble animate__delay-4s animate__fast"
           to="/projects"
@@ -80,12 +82,12 @@ export default {
     // TwitterIcon,
     FacebookIcon,
     YoutubeIcon,
-    MailIcon
+    MailIcon,
   },
 
   data() {
     return {
-      avatar: require("@/assets/avatar-1.webp"),
+      avatar: require("@/static/avatar-1.webp"),
       // ADD YOUR SOCIAL LINKS HERE 👇
       socialLinks: {
         github: "http://github.com/asaoluelijah",
@@ -93,8 +95,8 @@ export default {
         // twitter: "https://twitter.com/asaolu_elijah",
         facebook: "https://facebook.com/asaoluelijah01",
         mail: "mailto:info4a.elijah@gmail.com",
-        youtube: ""
-      }
+        youtube: "",
+      },
     };
   },
 
@@ -105,33 +107,33 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products",
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Portfolio ⚡ - Tuyến"
+        content: "Portfolio ⚡ - Tuyến",
       },
       {
         property: "og:description",
         content:
-          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products"
+          "Tuyến is an awesome front-end developer and technical writer, passionate about building solutions that works across multiple platforms with high accessibility approach. Elijah has vast knowledge in web development with over 3+ years experience in building actual products",
       },
       {
         hid: "og:image",
         name: "og:image",
-        content: require("@/assets/coding.png")
-      }
-    ]
+        content: require("@/static/coding.png"),
+      },
+    ],
   },
   methods: {
     changeAvatar() {
-      if (this.avatar == require("@/assets/avatar-2.webp")) {
-        this.avatar = require("@/assets/avatar-1.webp");
+      if (this.avatar == require("@/static/avatar-2.webp")) {
+        this.avatar = require("@/static/avatar-1.webp");
       } else {
-        this.avatar = require("@/assets/avatar-2.webp");
+        this.avatar = require("@/static/avatar-2.webp");
       }
-    }
+    },
   },
   mounted() {
     this.$nextTick(() => {
@@ -139,6 +141,6 @@ export default {
 
       setTimeout(() => this.$nuxt.$loading.finish(), 500);
     });
-  }
+  },
 };
 </script>

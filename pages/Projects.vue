@@ -1,5 +1,5 @@
 <template>
-  <div class="about page  animate__animated animate__fadeIn">
+  <div class="about page animate__animated animate__fadeIn">
     <h2>Recent Project</h2>
     <div class="container">
       <div class="row" v-for="(project, index) in projects" :key="index">
@@ -11,18 +11,18 @@
           />
         </div>
         <div class="col-md-5">
-          <h2 class="mt-3" style="text-align: left;">
+          <h2 class="mt-3" style="text-align: left">
             {{ project.title }}
             <hr class="dope" />
           </h2>
           <b-card class="mt-3 mb-3 text-left text-dark">
             <p>{{ project.description }}</p>
             <b-link :href="project.link"
-              >Check it out! <LinkIcon style="color: #000;"
+              >Check it out! <LinkIcon style="color: #000"
             /></b-link>
             <hr />
             <b-link :href="project.github_url"
-              >View source code <GithubIcon style="color: #000;"
+              >View source code <GithubIcon style="color: #000"
             /></b-link>
           </b-card>
         </div>
@@ -37,7 +37,7 @@ import GithubIcon from "vue-ionicons/dist/logo-github.vue";
 export default {
   components: {
     GithubIcon,
-    LinkIcon
+    LinkIcon,
   },
   data() {
     return {
@@ -45,39 +45,36 @@ export default {
         {
           title: "Anbooks",
           tag: "Progressive Web App",
-          description:
-            "Website published books.",
-          image_cover: require("@/assets/speak.jpg"),
+          description: "Website published books.",
+          image_cover: require("@/static/speak.jpg"),
           github_url: "",
-          link: "http://www.anbooks.vn/"
+          link: "http://www.anbooks.vn/",
         },
         {
           title: "Go2joy",
           tag: "Progressive Web App",
           description:
             "Top of hourly hotel booking app in Vietnam with exclusive benefits.",
-          image_cover: require("@/assets/illustration.jpg"),
+          image_cover: require("@/static/illustration.jpg"),
           github_url: "",
-          link: ""
+          link: "",
         },
         {
           title: "SA Go2joy",
           tag: "Web Admin",
-          description:
-            "Tracking and manager booking, user ... for Go2joy",
-          image_cover: require("@/assets/qr-1.png"),
+          description: "Tracking and manager booking, user ... for Go2joy",
+          image_cover: require("@/static/qr-1.png"),
           github_url: "",
-          link: ""
+          link: "",
         },
         {
           title: "HA Go2joy",
           tag: "Web Admin",
-          description:
-            "Tracking and manager booking, user ... for Hotel",
-          image_cover: require("@/assets/qr-1.png"),
+          description: "Tracking and manager booking, user ... for Hotel",
+          image_cover: require("@/static/qr-1.png"),
           github_url: "",
-          link: ""
-        }
+          link: "",
+        },
       ],
     };
   },
@@ -88,7 +85,7 @@ export default {
       } else {
         return false;
       }
-    }
+    },
   },
   head: {
     title: "Recent Projects 💻 - Tuyến",
@@ -97,25 +94,25 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify.",
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Projects 💻 - Tuyến"
+        content: "Recent Projects 💻 - Tuyến",
       },
       {
         property: "og:description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Tuyến, open-sourced means this project source code are publicly available for everyone to use or modify.",
       },
       {
         hid: "og:image",
         name: "og:image",
-        content: require("@/assets/man-computer.png")
-      }
-    ]
-  }
+        content: require("@/static/man-computer.png"),
+      },
+    ],
+  },
 };
 </script>
 <style scoped>

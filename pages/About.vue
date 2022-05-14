@@ -6,8 +6,8 @@
           <h1 class="line-after">About Me</h1>
           <h4 class="mt-4">Hey 👋</h4>
           <p>
-            My name is Lê Vĩnh Tuyến, I am a <b>front-end developer</b> . Currently studying Computer Science at
-            <u>HCMUS</u>.
+            My name is Lê Vĩnh Tuyến, I am a <b>front-end developer</b> .
+            Currently studying Computer Science at <u>HCMUS</u>.
           </p>
           <p>
             I have <b>{{ currYear - startYear }}+ years experience</b> in
@@ -18,14 +18,14 @@
           <p>Below are some of the technologies I use daily:</p>
           <div class="row animate__animated animate__fadeInUp">
             <div class="col">
-              <ul style="list-style-type: circle;">
+              <ul style="list-style-type: circle">
                 <li>HTML & CSS</li>
                 <li>Node.js</li>
                 <li>PHP (Laravel)</li>
               </ul>
             </div>
             <div class="col">
-              <ul style="list-style-type: circle;">
+              <ul style="list-style-type: circle">
                 <li>JavaScript</li>
                 <li>Vue.js</li>
               </ul>
@@ -35,7 +35,7 @@
       </div>
       <div class="col-md-6">
         <img
-          src="@/assets/working.png"
+          src="@/static/working.png"
           alt="About Illustration"
           class="abt-img"
         />
@@ -54,33 +54,33 @@ export default {
           language: "HTML",
           experience: "4+ Years",
           variant: "secondary",
-          breif: "lorem..."
+          breif: "lorem...",
         },
         {
           language: "CSS",
           experience: "4+ Years",
           variant: "primary",
-          breif: "lorem..."
+          breif: "lorem...",
         },
         {
           language: "Javascript",
           experience: "3+ Years",
           variant: "warning",
-          breif: "lorem..."
+          breif: "lorem...",
         },
         {
           language: "VUE.JS",
           experience: "2+ Years",
           variant: "success",
-          breif: "lorem..."
+          breif: "lorem...",
         },
         {
           language: "Node.js",
           experience: "2+ Years",
           variant: "dark",
-          breif: "lorem..."
-        }
-      ]
+          breif: "lorem...",
+        },
+      ],
     };
   },
   head: {
@@ -90,10 +90,10 @@ export default {
         hid: "description",
         name: "description",
         // currYear - startYear
-        content: `Hey there 👋 My name is Tuyến, i am a front-end developer currently studying Computer Science at HCMUS. i have many years of experience in crafting beautiful web and mobile interfaces. Plus i am an agile learner, i learn new cool stuffs everyday.`
-      }
-    ]
-  }
+        content: `Hey there 👋 My name is Tuyến, i am a front-end developer currently studying Computer Science at HCMUS. i have many years of experience in crafting beautiful web and mobile interfaces. Plus i am an agile learner, i learn new cool stuffs everyday.`,
+      },
+    ],
+  },
 };
 </script>
 <style scoped>
