@@ -18,7 +18,7 @@
         <b-form class="mb-5" @submit.prevent="sendMessage">
           <b-form-group id="input-group-1" label="Your Name:">
             <b-form-input
-              placeholder="John Doe"
+              placeholder="Tuyến Lê"
               v-model="formData.name"
               required
             ></b-form-input>
@@ -28,7 +28,7 @@
             <b-form-input
               v-model="formData.email"
               type="email"
-              placeholder="john@doe.com"
+              placeholder="tuyen@go2joy.com"
               required
             ></b-form-input>
           </b-form-group>
@@ -38,7 +38,7 @@
               v-model="formData.message"
               no-resize
               rows="3"
-              placeholder="Watsup Elijah, are you available for.."
+              placeholder="Tuyen Le, are you available for.."
               required
             ></b-form-textarea>
           </b-form-group>
