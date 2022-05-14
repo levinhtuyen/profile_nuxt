@@ -1,14 +1,18 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
-    <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
+    <b-navbar-brand tag="h1" to="/" style="font-weight: bolder"
       >Profile</b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
-      style="border-radius: 0;"
+      style="border-radius: 0"
     ></b-navbar-toggle>
 
-    <b-collapse id="nav-collapse" is-nav class="animate__animated animate__fadeInDown">
+    <b-collapse
+      id="nav-collapse"
+      is-nav
+      class="animate__animated animate__fadeInDown"
+    >
       <b-navbar-nav>
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/about">About</b-nav-item>
@@ -22,7 +26,7 @@
           class="moon-icon"
           title="Toggle Darkmode"
         >
-          <SunnyIcon style="color: #eee;font-size: 20px;" />
+          <SunnyIcon style="color: #eee; font-size: 20px" />
         </b-nav-item>
         <b-nav-item
           href="#"
@@ -31,7 +35,7 @@
           class="moon-icon"
           title="Toggle Darkmode"
         >
-          <MoonIcon style="color: #000;font-size: 20px;" />
+          <MoonIcon style="color: #000; font-size: 20px" />
         </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
@@ -46,11 +50,11 @@ export default {
   name: "NavBar",
   components: {
     SunnyIcon,
-    MoonIcon
+    MoonIcon,
   },
   data() {
     return {
-      themeMode: ""
+      themeMode: "",
     };
   },
   methods: {
@@ -75,11 +79,11 @@ export default {
         document.querySelector("nav").classList.toggle("navbar-light");
         document.querySelector("nav").classList.toggle("bg-light");
       }
-    }
+    },
   },
-  mounted(){
+  mounted() {
     this.themeMode = localStorage.themeMode;
-  }
+  },
 };
 </script>
 <style scoped>
