@@ -90,11 +90,11 @@ export default {
       avatar: require("@/static/avatar-1.webp"),
       // ADD YOUR SOCIAL LINKS HERE 👇
       socialLinks: {
-        github: "http://github.com/asaoluelijah",
+        github: "https://levinhtuyen.github.io/profile_nuxt/",
         // linkedin: "https://www.linkedin.com/in/asaoluelijah/",
         // twitter: "https://twitter.com/asaolu_elijah",
-        facebook: "https://facebook.com/asaoluelijah01",
-        mail: "mailto:info4a.elijah@gmail.com",
+        facebook: "https://www.facebook.com/profile.php?id=100007906847424",
+        mail: "levinhtuyen210@gmail.com",
         youtube: "",
       },
     };
