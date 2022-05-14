@@ -10,7 +10,7 @@ export default {
    */
   target: "static",
   router: {
-    base: "/gh-pages/",
+    base: "/profile_nuxt/",
   },
   /*
    ** Headers of the page
